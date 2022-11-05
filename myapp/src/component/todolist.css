@@ -1,0 +1,84 @@
+.main{
+    background-color: whitesmoke;
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inpt{
+    width: 30vw;
+    height: 8vh;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.submit-btn{
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+
+.submit-btn:hover{
+    background-color: rgb(62, 241, 62);
+    color: white;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    /* position: relative; */
+    /* left: 0%; */
+    /* transform: translate(0%,-50%); */
+    width: 20vw;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 600;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.icon{
+    cursor: pointer;
+    padding: 5px;
+}
+.icon:hover{
+    background-color: red;
+    color: white;
+}
+
+@media(max-width: 1000px){
+    .main{
+        width: 50vw;
+        height: 30vh;
+    }
+    .inpt{
+        width: 35vw;
+        height: 3.5vh;
+    }
+    .submit-btn{
+        border-radius: 50%;
+        padding: 2px 8px;
+    }
+    .submit-btn:hover{
+        background-color: rgb(62, 241, 62);
+        color: white;
+    }
+    
+}
